@@ -1,0 +1,13 @@
+backtick 1 60 0 APM
+# backtick 2 1 1 heise.sh
+startup_message off
+vbell off
+defscrollback 10000
+### add colour to the caption...
+caption string "%{.ck} %n %t %{.gk}"
+# hardstatus string "%{.yk} %2`"
+hardstatus alwayslastline
+hardstatus string "%{.wk} %H %{.yk} %H %{.gk} Load: %l %{.rw} %c:%s %{.bw} %n %t %{.wk} %W %{.wk}"
+
+multiuser on
+# escape ^yy
